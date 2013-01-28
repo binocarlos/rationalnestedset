@@ -1,0 +1,26 @@
+{
+  "name": "rationalnestedset",
+  "version": "0.0.1",
+  "description": "rational nested set tree encoder",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/binocarlos/rationalnestedset"
+  },
+  "keywords": [
+    "tree",
+    "nested set"
+  ],
+  "dependencies": {
+    "lodash": "~1.0.0-rc.3"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "author": "Kai Davenport",
+  "license": "MIT"
+}
