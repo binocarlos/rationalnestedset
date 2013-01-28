@@ -18,17 +18,17 @@ will contain it's own numerator and denominator (as the left boundary) and that 
 
 This means if:
 
-   ln = left numerator, ld = left denominator
+   	ln = left numerator, ld = left denominator
 
-   rn = right numerator, rd = right denominator
+   	rn = right numerator, rd = right denominator
 
 then all descendants of this node can be retrieved using:
 
-   ( this.ln / this.ld ) < ( descendant.ln / descendant.ld ) < ( this.rn / this.rd )
+   	( this.ln / this.ld ) < ( descendant.ln / descendant.ld ) < ( this.rn / this.rd )
 
 and all ancestors of this node can be retrieved using:
 
-   ( ancestor.ln / ancestor.ld ) < ( this.ln / this.ld ) < ( ancestor.rn / ancestor.rd )
+   	( ancestor.ln / ancestor.ld ) < ( this.ln / this.ld ) < ( ancestor.rn / ancestor.rd )
 
 More importantly - inserting a new node into the tree becomes far more efficient because there are infinite rational numbers
 that lie BETWEEN ( this.ln / this.ld ) and ( this.rn / this.rd )
