@@ -1,6 +1,6 @@
 {
   "name": "rationalnestedset",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "rational nested set tree encoder",
   "main": "index.js",
   "scripts": {
@@ -15,11 +15,19 @@
     "nested set"
   ],
   "dependencies": {
-    "lodash": "~1.0.0-rc.3"
+    "lodash": "~1.0.0-rc.3",
+    "bignum": "~0.6.1"
   },
   "devDependencies": {
-    "mocha": "*",
-    "should": "*"
+    "grunt": "~0.4.1",
+    "grunt-exec": "*",
+    "grunt-contrib-jshint": "~0.4.1",
+    "grunt-mocha-test": "~0.2.2",
+    "grunt-contrib-concat": "~0.1.3",
+    "grunt-contrib-uglify": "~0.2.0",
+    "grunt-contrib-watch": "~0.3.1",
+    "chai": "*",
+    "mocha": "*"
   },
   "author": "Kai Davenport",
   "license": "MIT"
