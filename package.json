@@ -1,6 +1,6 @@
 {
   "name": "rationalnestedset",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "rational nested set tree encoder",
   "main": "index.js",
   "scripts": {
